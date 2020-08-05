@@ -72,10 +72,13 @@ Language Skills {#skills}
 skills <- tribble(
   ~skill,               ~level,
   "R",                  5,
-  "Python",             3.5,
+  "RMarkdown",          4.5,
+  "R Shiny",            4,
+  "Python",             4,
   "UNIX",               3.5,
-  "SQL",                3,
-  "Docker",             3
+  "SQL",                4,
+  "Docker",             3,
+  "Git",                4
 )
 build_skill_bars(skills)
 ```
@@ -102,7 +105,7 @@ Disclaimer {#disclaimer}
 
 Made w/ [**pagedown**](https://github.com/rstudio/pagedown). 
 
-Source code: [github.com/aarizvi/resume](https://github.com/aarizvi/resume).
+Source code: [github.com/aarizvi/cv](https://github.com/aarizvi/cv).
 
 Last updated on `r Sys.Date()`.
 
@@ -116,7 +119,7 @@ Abbas Rizvi, PhD {#title}
 --------------------------------------------------------------------------------
 
 ```{r}
-intro_text <- "I am a PhD data scientist and computational biologist. I have strong experience doing data science end to end. From data retreival, to data preparation (tidying, reshaping), to exploratory data analysis (visualizations, descriptive statistics), to predictive modeling (machine learning/statistical modeling), to packaging and deployment (using docker as http web services or cloud deployment). I have a strong knowledge of molecular and cell biology. I am deeply experienced with the R programming language and given talks at Bioconductor and useR on my open source contributions." 
+intro_text <- "I am a PhD data scientist and computational biologist. I have strong experience doing data science end to end. From data retreival, to data preparation (tidying, reshaping), to exploratory data analysis (visualizations, descriptive statistics), to predictive modeling (machine learning/statistical modeling), to packaging and deployment (using docker as http web services or cloud deployment). I have a strong knowledge base of molecular, cell biology, genetics, and bioinformatics. I am deeply experienced with the R programming language and given talks at Bioconductor and useR on my open source contributions." 
 
 cat(sanitize_links(intro_text))
 ```
